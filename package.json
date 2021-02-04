@@ -1,0 +1,33 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
+    "development": "ts-node-dev src/server.ts",
+    "production": "node dist/server.js",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "typeorm": "^0.2.30"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-decorators": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.22",
+    "@types/uuid": "^8.3.0",
+    "babel-plugin-transform-typescript-metadata": "^0.3.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  }
+}

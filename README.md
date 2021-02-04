@@ -72,6 +72,7 @@ Pronto! A aplicação já está rodando na porta definida no .env, por padrão a
 Caso você abra o projeto em seu editor provavelmente vai acusar alguns erros de syntax, porque estamos utilizando Typescript e ele não localizou as dependencias utilizadas no projeto.
 
 > Caso seu projeto seja feito apenas em Javascript não é necessário fazer isso.
+
 Uma alternativa que encontrei foi remover a seguinte linha do arquivo `docker-compose.yml`
 ```sh
 - /usr/app/node_modules

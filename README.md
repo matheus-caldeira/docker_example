@@ -1,7 +1,7 @@
 # Docker_example
-#
-#
-#
+
+
+
 ### Resumo
 Exemplo de uso do docker-compose com Node + Typescript + Banco de Dados. 
 

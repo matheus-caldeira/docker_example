@@ -75,6 +75,7 @@ Uma alternativa que encontrei foi remover a seguinte linha do arquivo `docker-co
 ```sh
 - /usr/app/node_modules
 ```
+> Caso seu projeto seja feito apenas em Javascript não é necessário fazer isso.
 
 Para isso funcionar é necessário parar o container atual e rodar:
 ```sh
@@ -122,7 +123,6 @@ E iniciar o container:
 ```sh
 $ docker-compose up -d
 ```
-
 
 License
 ----

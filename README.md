@@ -30,7 +30,7 @@ Desenvolvido com as seguintes tecnologias:
 
 ### Instalação
 
-Necessário ter instalado e configura o [Docker], incluindo o docker-compose.
+Necessário ter instalado o [Docker], incluindo o docker-compose.
 
 Para rodar o projeto é necessário configurar o arquivo .env, existe um exemplo dispónivel [.env.example]
 

@@ -42,8 +42,8 @@ $ cp .env.example .env
 
 
 
-##### Docker
-#
+#### Docker
+
 Agora é necessário criar o container da aplicação.
 
 Primeiro vamos fazer a build do container:

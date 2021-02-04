@@ -93,9 +93,11 @@ Para instalação de dependencias basta utilizar o seguinte comando:
 $ docker-compose run app <command>
 ```
 > No caso `app` é o nome do container definido em `docker-compose.yml`
+> Exemplo: docker-compose run app yarn add cors
+> Exemplo: docker-compose run app yarn typeorm migration:generate 
 
 ### Produção
-Para rodar a aplicação em produção é necessário as seguintes linhas do .env ...
+Para rodar a aplicação em produção é necessário alterar o .env...
 
 ```sh
 NODE_ENV=production
